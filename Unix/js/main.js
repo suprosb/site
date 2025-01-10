@@ -3,7 +3,7 @@ $(document).ready(function () {
 player.playlist([
         
 { name: 'Ptv',           autoplay: true, sources: [ {src: 'http://11plus.live/live/ptv/index.m3u8', type: 'application/x-mpegURL'},]},
-{ name: 'TSports',       autoplay: true, sources: [ {src: 'http://11plus.live/live/tsports/index.m3u8', type: 'application/x-mpegURL'}, ] },
+{ name: 'TSports',       autoplay: true, sources: [ {src: 'https://sports-tv-bd.tiiny.io/stream.php?id=gtvbdo', type: 'application/x-mpegURL'}, ] },
 { name: 'Star Sports 1', autoplay: true, sources: [ {src: 'http://11plus.live/live/stersports1hd/index.m3u8', type: 'application/x-mpegURL'}, ] },
 { name: 'Star sports 1', autoplay: true, sources: [ {src: 'http://172.17.50.112/live/fifa2022/index.m3u8', type: 'application/x-mpegURL'}, ] },
 { name: 'Star sports 1', autoplay: true, sources: [ {src: 'http://172.17.50.112/live/antbd1001/index.m3u8', type: 'application/x-mpegURL'},] },
